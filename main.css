@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* End variables */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #0f1d20;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+main {
+  height: 100vh;
+}
+main .container {
+  margin-top: 100px;
+}
+main .container .contain {
+  text-align: center;
+}
+main .container .contain header h1 {
+  color: #d0d1b1;
+  text-transform: capitalize;
+}
+main .container .contain header form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .container .contain header form #add-task-input {
+  width: 40rem;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0b1315;
+  color: #a3aeb2;
+  border: 2px solid #d0d1b1;
+}
+main .container .contain header form #add-task-submit {
+  height: 50px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #d0d1b1;
+  background-color: #0b1315;
+  border: 1px solid #d0d1b1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .container .contain header form #add-task-submit:hover {
+  background-color: #23282d;
+}
+main .container .contain .task-list {
+  margin-top: 40px;
+}
+main .container .contain .task-list h2 {
+  text-align: start;
+  margin-left: 180px;
+  margin-bottom: 10px;
+  color: #d0d1b1;
+  text-transform: capitalize;
+}
+main .container .contain .task-list .task {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .container .contain .task-list .task input {
+  width: 40rem;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0b1315;
+  color: #a3aeb2;
+  border: 2px solid #d0d1b1;
+}
+main .container .contain .task-list .task .actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .container .contain .task-list .task button {
+  height: 50px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 10px;
+  width: 60px;
+  background-color: #0b1315;
+  border: 1px solid #d0d1b1;
+  cursor: pointer;
+}
+main .container .contain .task-list .task button:hover {
+  background-color: #23282d;
+}
+main .container .contain .task-list .task button i {
+  font-size: 20px;
+  color: #d0d1b1;
+  transition: 0.3s;
+}
+main .container .contain .task-list .task button i:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=main.css.map */
